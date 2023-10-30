@@ -10,4 +10,4 @@ def index():
     nome = request.form['nome']
   return render_template('index.html', nome=nome)
 
-app.run(debug=True)
+app.run(debug=True)git add
